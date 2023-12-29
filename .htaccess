@@ -1,0 +1,10 @@
+RewriteEngine On
+
+RewriteRule ^/?$ views/login.php
+
+RewriteRule ^login?$ views/login.php
+RewriteRule ^register?$ views/register.php
+RewriteRule ^logout?$ views/logout.php
+
+RewriteRule ^masyarakat?$ views/masyarakat/index.php
+RewriteRule ^petugas?$ views/petugas/index.php
